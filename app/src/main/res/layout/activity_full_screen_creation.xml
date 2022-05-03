@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_bg_two">
+
+    <include
+        android:id="@+id/toolbar1"
+        layout="@layout/toolbar_resume_share"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bannerAd"
+        android:layout_below="@+id/toolbar1"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center|center_horizontal"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <com.resume.maker.utils.ZoomLayout
+            android:id="@+id/zoomLayout"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+
+            android:foregroundGravity="center_vertical|center|center_horizontal"
+            android:gravity="center|center_horizontal|center_vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <RelativeLayout
+                android:id="@+id/layoutrelativemain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shadow_rounded_rect"
+
+                android:elevation="5dp"
+                android:foregroundGravity="center"
+
+
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/imgshowcreation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:foregroundGravity="center"
+                    android:scaleType="fitXY" />
+            </RelativeLayout>
+
+        </com.resume.maker.utils.ZoomLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <RelativeLayout
+        android:id="@+id/bannerAd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center" />
+</RelativeLayout>

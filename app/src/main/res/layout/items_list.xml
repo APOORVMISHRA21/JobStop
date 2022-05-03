@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/f1_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/toolbar1"
+        layout="@layout/toolbar_with_save"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_below="@+id/mainnn"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="20dp"
+        android:layout_weight="1">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/dp15">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rcitem"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/tv_text"
+                android:layout_marginStart="@dimen/dp5"
+                android:layout_marginTop="@dimen/dp5"
+                android:layout_marginEnd="@dimen/dp5"
+                android:layout_marginBottom="@dimen/dp5"
+                android:divider="@android:color/transparent"
+                android:dividerHeight="@dimen/dp5" />
+
+            <TextView
+                android:id="@+id/tv_text"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/dp60"
+                android:layout_above="@+id/btn_add"
+                android:layout_alignParentBottom="true"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Tap &apos;+&apos; to create"
+                android:textColor="@color/colorPrimary"
+                android:textSize="13dp" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/btn_add"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_centerInParent="true"
+                android:src="@drawable/add" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bottomNavStep">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:gravity="end"
+            android:orientation="horizontal"
+            android:weightSum="4"
+            app:layout_constraintBottom_toBottomOf="parent">
+
+            <TextView
+                android:id="@+id/backBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:padding="16dp"
+                android:text="Back"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:textStyle="normal"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2" />
+
+            <TextView
+                android:id="@+id/nextBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:padding="16dp"
+                android:text="Next"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:textStyle="normal" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

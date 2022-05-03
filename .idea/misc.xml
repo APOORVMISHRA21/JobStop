@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Appyhigh/ResumeMaker/ResumeMaker/app/src/main/res/drawable/ad_border_charge.xml" value="0.109" />
+        <entry key="..\:/Appyhigh/ResumeMaker/ResumeMaker/app/src/main/res/drawable/backgroundline.xml" value="0.157" />
+        <entry key="..\:/Appyhigh/ResumeMaker/ResumeMaker/app/src/main/res/drawable/bg_violet_rounded_button.xml" value="0.2115" />
+        <entry key="..\:/Appyhigh/ResumeMaker/ResumeMaker/app/src/main/res/drawable/border_pink.xml" value="0.157" />
+        <entry key="..\:/Appyhigh/ResumeMaker/ResumeMaker/app/src/main/res/drawable/bottom_border.xml" value="0.109" />
+        <entry key="..\:/Appyhigh/ResumeMaker/ResumeMaker/app/src/main/res/drawable/btn_tedadmob_white.xml" value="0.2115" />
+        <entry key="..\:/Appyhigh/ResumeMaker/ResumeMaker/app/src/main/res/drawable/home_tiles_bg.xml" value="0.2115" />
+        <entry key="..\:/Appyhigh/ResumeMaker/ResumeMaker/app/src/main/res/drawable/ic_degree.xml" value="0.109" />
+        <entry key="..\:/Appyhigh/ResumeMaker/ResumeMaker/app/src/main/res/drawable/ic_email.xml" value="0.157" />
+        <entry key="..\:/Appyhigh/ResumeMaker/ResumeMaker/app/src/main/res/drawable/ic_photo_library_black_24dp.xml" value="0.157" />
+        <entry key="..\:/Appyhigh/ResumeMaker/ResumeMaker/app/src/main/res/drawable/ic_rotate_left_black_24dp.xml" value="0.157" />
+        <entry key="..\:/Appyhigh/ResumeMaker/ResumeMaker/app/src/main/res/drawable/ic_rotate_right_black_24dp.xml" value="0.157" />
+        <entry key="..\:/Appyhigh/ResumeMaker/ResumeMaker/app/src/main/res/drawable/ic_skills.xml" value="0.157" />
+        <entry key="..\:/Appyhigh/ResumeMaker/ResumeMaker/app/src/main/res/drawable/rect_border_grey.xml" value="0.157" />
+        <entry key="..\:/Appyhigh/ResumeMaker/ResumeMaker/app/src/main/res/drawable/rounded_rect_green.xml" value="0.157" />
+        <entry key="..\:/Appyhigh/ResumeMaker/ResumeMaker/app/src/main/res/layout/activity_aboutme.xml" value="0.15457842248413417" />
+        <entry key="..\:/Appyhigh/ResumeMaker/ResumeMaker/app/src/main/res/layout/activity_academic.xml" value="0.25" />
+        <entry key="..\:/Appyhigh/ResumeMaker/ResumeMaker/app/src/main/res/layout/activity_basic.xml" value="0.20427305888483585" />
+        <entry key="..\:/Appyhigh/ResumeMaker/ResumeMaker/app/src/main/res/layout/activity_experience.xml" value="0.25" />
+        <entry key="..\:/Appyhigh/ResumeMaker/ResumeMaker/app/src/main/res/layout/activity_full_screen_creation.xml" value="0.14" />
+        <entry key="..\:/Appyhigh/ResumeMaker/ResumeMaker/app/src/main/res/layout/activity_hobbies.xml" value="0.1" />
+        <entry key="..\:/Appyhigh/ResumeMaker/ResumeMaker/app/src/main/res/layout/activity_home.xml" value="0.25" />
+        <entry key="..\:/Appyhigh/ResumeMaker/ResumeMaker/app/src/main/res/layout/activity_interview_tips.xml" value="0.15457842248413417" />
+        <entry key="..\:/Appyhigh/ResumeMaker/ResumeMaker/app/src/main/res/layout/activity_language.xml" value="0.15457842248413417" />
+        <entry key="..\:/Appyhigh/ResumeMaker/ResumeMaker/app/src/main/res/layout/activity_main.xml" value="0.15443840579710144" />
+        <entry key="..\:/Appyhigh/ResumeMaker/ResumeMaker/app/src/main/res/layout/activity_my_creation.xml" value="0.18" />
+        <entry key="..\:/Appyhigh/ResumeMaker/ResumeMaker/app/src/main/res/layout/activity_personalinfo.xml" value="0.25" />
+        <entry key="..\:/Appyhigh/ResumeMaker/ResumeMaker/app/src/main/res/layout/activity_privacy.xml" value="0.15457842248413417" />
+        <entry key="..\:/Appyhigh/ResumeMaker/ResumeMaker/app/src/main/res/layout/activity_references.xml" value="0.33" />
+        <entry key="..\:/Appyhigh/ResumeMaker/ResumeMaker/app/src/main/res/layout/activity_resume_sample1.xml" value="0.25" />
+        <entry key="..\:/Appyhigh/ResumeMaker/ResumeMaker/app/src/main/res/layout/activity_resume_sample10.xml" value="0.15457842248413417" />
+        <entry key="..\:/Appyhigh/ResumeMaker/ResumeMaker/app/src/main/res/layout/activity_resume_sample11.xml" value="0.15457842248413417" />
+        <entry key="..\:/Appyhigh/ResumeMaker/ResumeMaker/app/src/main/res/layout/activity_resume_sample12.xml" value="0.15457842248413417" />
+        <entry key="..\:/Appyhigh/ResumeMaker/ResumeMaker/app/src/main/res/layout/activity_resume_sample13.xml" value="0.15457842248413417" />
+        <entry key="..\:/Appyhigh/ResumeMaker/ResumeMaker/app/src/main/res/layout/activity_resume_sample14.xml" value="0.15457842248413417" />
+        <entry key="..\:/Appyhigh/ResumeMaker/ResumeMaker/app/src/main/res/layout/activity_resume_sample15.xml" value="0.17883211678832117" />
+        <entry key="..\:/Appyhigh/ResumeMaker/ResumeMaker/app/src/main/res/layout/activity_resume_sample2.xml" value="0.33" />
+        <entry key="..\:/Appyhigh/ResumeMaker/ResumeMaker/app/src/main/res/layout/activity_resume_sample3.xml" value="0.15457842248413417" />
+        <entry key="..\:/Appyhigh/ResumeMaker/ResumeMaker/app/src/main/res/layout/activity_resume_sample4.xml" value="0.15457842248413417" />
+        <entry key="..\:/Appyhigh/ResumeMaker/ResumeMaker/app/src/main/res/layout/activity_resume_sample5.xml" value="0.15457842248413417" />
+        <entry key="..\:/Appyhigh/ResumeMaker/ResumeMaker/app/src/main/res/layout/activity_resume_sample6.xml" value="0.15457842248413417" />
+        <entry key="..\:/Appyhigh/ResumeMaker/ResumeMaker/app/src/main/res/layout/activity_resume_sample7.xml" value="0.15457842248413417" />
+        <entry key="..\:/Appyhigh/ResumeMaker/ResumeMaker/app/src/main/res/layout/activity_resume_sample8.xml" value="0.15457842248413417" />
+        <entry key="..\:/Appyhigh/ResumeMaker/ResumeMaker/app/src/main/res/layout/activity_resume_sample9.xml" value="0.15457842248413417" />
+        <entry key="..\:/Appyhigh/ResumeMaker/ResumeMaker/app/src/main/res/layout/activity_resume_samples.xml" value="0.1" />
+        <entry key="..\:/Appyhigh/ResumeMaker/ResumeMaker/app/src/main/res/layout/activity_skills.xml" value="0.335042735042735" />
+        <entry key="..\:/Appyhigh/ResumeMaker/ResumeMaker/app/src/main/res/layout/activity_splash.xml" value="0.1" />
+        <entry key="..\:/Appyhigh/ResumeMaker/ResumeMaker/app/src/main/res/layout/activity_view_create_pdf.xml" value="0.15457842248413417" />
+        <entry key="..\:/Appyhigh/ResumeMaker/ResumeMaker/app/src/main/res/layout/createresume_dialog.xml" value="0.15457842248413417" />
+        <entry key="..\:/Appyhigh/ResumeMaker/ResumeMaker/app/src/main/res/layout/dialog_exit.xml" value="0.15457842248413417" />
+        <entry key="..\:/Appyhigh/ResumeMaker/ResumeMaker/app/src/main/res/layout/dialog_tedadmob.xml" value="0.15457842248413417" />
+        <entry key="..\:/Appyhigh/ResumeMaker/ResumeMaker/app/src/main/res/layout/fragment_basic.xml" value="0.15457842248413417" />
+        <entry key="..\:/Appyhigh/ResumeMaker/ResumeMaker/app/src/main/res/layout/fragment_progress_dialog.xml" value="0.15457842248413417" />
+        <entry key="..\:/Appyhigh/ResumeMaker/ResumeMaker/app/src/main/res/layout/items_list.xml" value="0.1" />
+        <entry key="..\:/Appyhigh/ResumeMaker/ResumeMaker/app/src/main/res/layout/library_bottom_dialog.xml" value="0.15457842248413417" />
+        <entry key="..\:/Appyhigh/ResumeMaker/ResumeMaker/app/src/main/res/layout/native_admob_ad.xml" value="0.15457842248413417" />
+        <entry key="..\:/Appyhigh/ResumeMaker/ResumeMaker/app/src/main/res/layout/no_media.xml" value="0.15457842248413417" />
+        <entry key="..\:/Appyhigh/ResumeMaker/ResumeMaker/app/src/main/res/layout/rowlayout_about.xml" value="0.15457842248413417" />
+        <entry key="..\:/Appyhigh/ResumeMaker/ResumeMaker/app/src/main/res/layout/rowlayout_academic.xml" value="0.3555787278415016" />
+        <entry key="..\:/Appyhigh/ResumeMaker/ResumeMaker/app/src/main/res/layout/rowlayout_experience.xml" value="0.33" />
+        <entry key="..\:/Appyhigh/ResumeMaker/ResumeMaker/app/src/main/res/layout/rowlayout_itemlist.xml" value="0.25" />
+        <entry key="..\:/Appyhigh/ResumeMaker/ResumeMaker/app/src/main/res/layout/rowlayout_mycreation.xml" value="0.15457842248413417" />
+        <entry key="..\:/Appyhigh/ResumeMaker/ResumeMaker/app/src/main/res/layout/rowlayout_resume_sample.xml" value="0.1675929884566054" />
+        <entry key="..\:/Appyhigh/ResumeMaker/ResumeMaker/app/src/main/res/layout/toolbar_resume_share.xml" value="0.15457842248413417" />
+        <entry key="..\:/Appyhigh/ResumeMaker/ResumeMaker/app/src/main/res/layout/toolbar_resumesample.xml" value="0.5" />
+        <entry key="..\:/Appyhigh/ResumeMaker/ResumeMaker/app/src/main/res/layout/toolbar_with_save.xml" value="0.25" />
+        <entry key="..\:/Appyhigh/ResumeMaker/ResumeMaker/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.109" />
+        <entry key="..\:/Appyhigh/ResumeMaker/ResumeMaker/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />
+        <entry key="..\:/Users/armaan/Documents/ResumeMaker/app/src/main/res/drawable/bg_circular.xml" value="0.17" />
+        <entry key="..\:/Users/armaan/Documents/ResumeMaker/app/src/main/res/drawable/bg_rounded_color.xml" value="0.1295" />
+        <entry key="..\:/Users/armaan/Documents/ResumeMaker/app/src/main/res/layout/activity_create_job.xml" value="0.1" />
+        <entry key="..\:/Users/armaan/Documents/ResumeMaker/app/src/main/res/layout/activity_dashboard.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/armaan/Documents/ResumeMaker/app/src/main/res/layout/activity_onboarding.xml" value="0.264" />
+        <entry key="..\:/Users/armaan/Documents/ResumeMaker/app/src/main/res/layout/activity_splash.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/armaan/Documents/ResumeMaker/app/src/main/res/layout/activity_student_home.xml" value="0.24479166666666666" />
+        <entry key="..\:/Users/armaan/Documents/ResumeMaker/app/src/main/res/menu/bottom_nav_menu.xml" value="0.2296875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

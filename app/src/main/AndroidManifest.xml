@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.demo">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.SET_ALARM" />
+
+    <application
+        android:name="com.resume.maker.AddManageApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".StudentHomeActivity"
+            android:exported="false"
+            android:label="@string/title_activity_student_home" />
+        <activity
+            android:name="com.resume.maker.OnboardingActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.resume.maker.HomeActivity"
+            android:theme="@style/AppTheme_NoActionBar" />
+        <activity
+            android:name="com.resume.maker.SplashActivity"
+            android:exported="true"
+            android:theme="@style/AppTheme_NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.resume.maker.PrivacyActivity"
+            android:theme="@style/AppTheme_NoActionBar" />
+        <activity
+            android:name="com.resume.maker.ViewCreatePdfActivity"
+            android:theme="@style/AppTheme_NoActionBar" />
+        <activity
+            android:name="com.resume.maker.ResumeSamplesActivity"
+            android:theme="@style/AppTheme_NoActionBar" />
+        <activity
+            android:name="com.resume.maker.AboutmeActivity"
+            android:theme="@style/AppTheme_NoActionBar" />
+        <activity
+            android:name="com.resume.maker.MainActivity"
+            android:theme="@style/AppTheme_NoActionBar" />
+        <activity
+            android:name="com.resume.maker.crop.BasicActivity"
+            android:theme="@style/AppTheme_NoActionBar" />
+        <activity
+            android:name="com.resume.maker.InterviewTipsActivity"
+            android:theme="@style/AppTheme_NoActionBar" />
+        <activity
+            android:name="com.resume.maker.PersonalinfoActivity"
+            android:theme="@style/AppTheme_NoActionBar" />
+        <activity
+            android:name="com.resume.maker.AcademicActivity"
+            android:theme="@style/AppTheme_NoActionBar" />
+        <activity
+            android:name="com.resume.maker.ExperienceActivity"
+            android:theme="@style/AppTheme_NoActionBar" />
+        <activity
+            android:name="com.resume.maker.ReferenceActivity"
+            android:theme="@style/AppTheme_NoActionBar" />
+        <activity
+            android:name="com.resume.maker.SkillsActivity"
+            android:theme="@style/AppTheme_NoActionBar" />
+        <activity
+            android:name="com.resume.maker.LanguageActivity"
+            android:theme="@style/AppTheme_NoActionBar" />
+        <activity
+            android:name="com.resume.maker.HobbiesActivity"
+            android:theme="@style/AppTheme_NoActionBar" />
+        <activity
+            android:name="com.resume.maker.ResumeSample1Activity"
+            android:theme="@style/AppTheme_NoActionBar" />
+        <activity
+            android:name="com.resume.maker.MyCreationActivity"
+            android:theme="@style/AppTheme_NoActionBar" />
+        <activity
+            android:name="com.resume.maker.FullScreenCreationActivity"
+            android:theme="@style/AppTheme_NoActionBar" />
+        <activity
+            android:name="com.resume.maker.Recruiter.CreateJobActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.resume.maker.Recruiter.RecruiterDetailsActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.resume.maker.Recruiter.DashboardActivity"
+            android:exported="false" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="@string/admob_app_id" /> <!-- <meta-data -->
+        <!-- android:name="com.google.android.gms.ads.APPLICATION_ID" -->
+        <!-- android:value="ca-app-pub-3940256099942544~3347511713" /> -->
+        <meta-data
+            android:name="com.google.android.gms.ads.AD_MANAGER_APP"
+            android:value="true" />
+    </application>
+
+</manifest>

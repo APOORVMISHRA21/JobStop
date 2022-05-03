@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "1019698467829",
+    "firebase_url": "https://dbmsproject-f55cb-default-rtdb.firebaseio.com",
+    "project_id": "dbmsproject-f55cb",
+    "storage_bucket": "dbmsproject-f55cb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1019698467829:android:d8766ea534c126681b86bc",
+        "android_client_info": {
+          "package_name": "com.app.projectdbms"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1019698467829-tinoh4vkqreaq8plgr3qp84sl0s5ls20.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.projectdbms",
+            "certificate_hash": "d26b41662b4eb11d59ca375e41e797de38894acf"
+          }
+        },
+        {
+          "client_id": "1019698467829-tq3tav04fhgf9da0v37hp4tgarr6dj3o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.projectdbms",
+            "certificate_hash": "f634a147399629209542efe214a9bfa7964a2713"
+          }
+        },
+        {
+          "client_id": "1019698467829-vqodehj2ls39l2a2qcsncb71bo70moi2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhIxwiLO8Yw4V4hyauzvbeFznMrQIVIK0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1019698467829-vqodehj2ls39l2a2qcsncb71bo70moi2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

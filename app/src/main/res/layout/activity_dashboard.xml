@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DashboardActivity">
+
+        <LinearLayout
+            android:id="@+id/rll_activity_main__app_menu"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/primary_btn"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/txv_activity_main__app_name"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="8dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="Recruiter Dashboard"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/btn_logout"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="10dp"
+                android:contentDescription=""
+                android:padding="7dp"
+                android:src="@drawable/ic_logout" />
+
+</LinearLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:background="@drawable/bg_rounded_color"
+        android:padding="16dp"
+        android:layout_margin="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/company_dp"
+            android:src="@drawable/common_google_signin_btn_icon_dark_focused"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            app:civ_border_color="@color/white"
+            app:civ_border_width="2dp"
+            android:layout_height="wrap_content"/>
+        <LinearLayout
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:padding="4dp"
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/company_name"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:text="Company Name"/>
+            <TextView
+                android:id="@+id/company_mail"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="italic"
+                android:textSize="11sp"
+                android:text="Company Name"/>
+            <TextView
+                android:id="@+id/company_description"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:textStyle="normal"
+                android:textSize="13sp"
+                android:layout_height="wrap_content"
+                android:text="Company Description is what it need to be best looking i'm trying my best to make it look good "/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/img_banner_1"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_margin="16dp"
+        android:visibility="gone"
+        android:background="@drawable/bg_rounded_color"
+        android:src="@drawable/ic_main_art" />
+    <ImageView
+        android:id="@+id/img_banner_2"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_margin="16dp"
+        android:background="@drawable/bg_rounded_color"
+        android:src="@drawable/ic_main_art" />
+    <TextView
+        android:id="@+id/tv_all_jobs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:text="All created jobs"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/job_post_rv"
+        android:layout_margin="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_create_hiring_post"
+        android:layout_width="match_parent"
+        android:text="Create new hiring Post"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_height="wrap_content"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_view_hiring_details"
+        android:layout_width="match_parent"
+        android:text="View all created hiring details"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:visibility="gone"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
